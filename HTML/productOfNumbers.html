@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product of Numbers</title>
+</head>
+<body>
+    <label>Enter First Number:</label>
+    <input type="text" id="firstNumber"/><br><br>
+    <label>Enter Second Number:</label>
+    <input type="text" id="secondNumber"/><br><br>
+    <button onclick="Product()">Result</button> 
+    <script>
+        function Product() {
+             let x=firstNumber.value;
+             let y=secondNumber.value;
+             result=x*y;
+             document.write("Result is:"+result);
+        }
+    </script>
+</body>
+</html>

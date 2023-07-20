@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marks Report</title>
+</head>
+<body>
+    <center>
+        <h2>Marks Report</h2>
+    </center>
+    <tr>
+        <td><label>Roll no :</label></td>
+        <td><input type="text" id="rollno"></td>
+    </tr>
+    <tr>
+        <td><label>Name :</label></td>
+        <td><input type="text" id="name"></td>
+    </tr>
+    <!-----------<tr>
+        <td><label>Marks :</label></td>
+        <td><input type="text" id="marks"></td>
+    </tr>--------------------------------------------->
+    <tr>
+        <td><label>HTML :</label></td>
+        <td><input type="text" id="html"></td>
+    </tr>
+    <tr>
+        <td><label>CSS :</label></td>
+        <td><input type="text" id="css"></td>
+    </tr>
+    <tr>
+        <td><label>Javascript :</label></td>
+        <td><input type="text" id="javascript"></td>
+    </tr>
+    <tr>
+       <td colspan="2"><button onclick="getResult()">Get Result</button></td>
+    </tr>
+    <tr>
+        <td colspan="2"><output id="Total"> </output></td>
+    </tr>
+    <tr>
+        <td colspan="2"><output id="Average"> </output></td>
+    </tr>
+    <!-----------------JAVA SCRIPT CODE----------------------->
+    <script>
+        function getResult(){
+            let h=parseInt(html.value);
+            let c=parseInt(css.value);
+            let j=parseInt(javascript.value);
+            let total=h+c+j;
+            average=total/3;
+            Total.value="Total :"+total;
+            Average.value="Average :"+average;
+        }
+    </script>
+</body>
+</html>

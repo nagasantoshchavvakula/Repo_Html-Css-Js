@@ -1,0 +1,26 @@
+img{
+    width: 20px;
+    height: 20px;
+}
+tr{
+    border-bottom: 1px solid red;
+}
+tr:nth-child(odd){
+    background-color: lightpink;
+    
+}
+tr:nth-child(even){
+    background-color: yellow;
+}
+tr:nth-child(1){
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+}
+tr:hover{
+    background-color: black;
+    color: white;
+}
+table{
+    border-collapse: collapse;
+}

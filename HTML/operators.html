@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators</title>
+</head>
+<body>
+    <center>
+        <h2>Demo  on Operators</h2>
+    </center>
+    <script>
+        let a=80;
+        let b=25;
+        let c=80;
+/*******************************************Arithmetic Operators ********************************/
+            document.write(a+b,"<br>");
+            document.write(a-b,"<br>");
+            document.write(a*b,"<br>");
+            document.write(a/b,"<br>");
+            document.write(a%b,"<br>");
+            document.write(b*3,"<br>");
+/*******************************************Relational Operators *******************************/       
+        document.write(a>b,"<br>")
+        document.write(a<0,"<br>")  
+/****************************************** Comparision Operators ******************************/   
+        document.write(a==c,"<br>") 
+        document.write(a===c,"<br>")  
+/******************************************* Logical Operators *********************************/  
+        document.write(a>=1&&a<=100,"<br>")
+        document.write(b<=10||b>=30,"<br>");
+/******************************************** Assigning Operators ******************************/  
+         a+=40;   //a=a+40;
+         b*=4;    //b=b*4;
+         document.write(a,"<br>")
+         document.write(b,"<br>")     //document.write(a,"<br>",b,"<br>")
+/******************************************** Incremental Operators ****************************/
+        document.write(a++,"<br>")
+        document.write(++a,"<br>")
+/******************************************** Ternary Operators ****************************/
+        document.write(a%2==0?"Even number":"odd number","<br>");
+/******************************************** Concatination Operators ***********************/
+        let x=20;
+        document.write("x value ="+x+"<br>")
+        document.write("apples"+" "+123+" "+true)
+    </script>
+</body>
+</html>
