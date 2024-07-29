@@ -1,6 +1,6 @@
 using System.Globalization;
 
-public class Project1
+public  Project1
 {
     public static void Main(string[] args)
     {
